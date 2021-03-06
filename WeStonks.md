@@ -41,4 +41,4 @@ Initial Task.
 1. Christian - develop risk tolerance Questionnaire
 2. Felix - Research Twitter API
 3. Edgar - Research Polygon IO API
-4 Ro bel - Research Quintly API 
+4. Robel - Research Quintly API 
