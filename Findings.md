@@ -52,7 +52,7 @@ In our journey scrapping Elon Musk's tweets we found 362 cryptocurrency related 
 
 # Find trends and correlation, if any, in Bitcoin valuations based on the social media activity of @elonmusk (tweets, retweets, replies, likes)
 ![Correlation](Findings_Images/correlation_code.png)
-![Daily](Findings_Images/Heatmap_Daily.png)
+![Daily](Findings_Images/Heatmap_Daily.PNG)
 We anticipated finding changes in volume with Bitcoin when Elon tweets about cryptocurrency.
 As seen in the heatmap and code above, to our surprise, there is little to no correlation between Elon Musk's cryptocurrency related tweets and Bitcoin volume.
 
