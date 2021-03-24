@@ -46,13 +46,13 @@ In our journey scrapping Elon Musk's tweets we found 362 cryptocurrency related 
 - bitcoincash
 - xrp
 
-![Elon Tweets](hvplot_bar_df.png)
-![Crypto Tweets](Bitcoin_Data.png)
-![Word Cloud](Word_Cloud.png)
+![Elon Tweets](Findings_Images/hvplot_bar_df.png)
+![Crypto Tweets](Findings_Images/Bitcoin_Data.png)
+![Word Cloud](Findings_Images/Word_Cloud.png)
 
 # Find trends and correlation, if any, in Bitcoin valuations based on the social media activity of @elonmusk (tweets, retweets, replies, likes)
-![Correlation](correlation_code.png)
-![Daily](Heatmap_Daily.png)
+![Correlation](Findings_Images/correlation_code.png)
+![Daily](Findings_Images/Heatmap_Daily.png)
 We anticipated finding changes in volume with Bitcoin when Elon tweets about cryptocurrency.
 As seen in the heatmap and code above, to our surprise, there is little to no correlation between Elon Musk's cryptocurrency related tweets and Bitcoin volume.
 
@@ -62,23 +62,23 @@ Here in the heatmap below, we have narrowed down the Bitcoin return data to hour
 
 
 
-![Daily Returns](daily_volume_with_elons_tweet_events.png)
+![Daily Returns](Findings_Images/daily_volume_with_elons_tweet_events.png)
 
-![Hourly](Heatmap_Hourly.png)
+![Hourly](Findings_Images/Heatmap_Hourly.png)
 
 In the presentation, a question was posed asking if the tweets around the time period from and since the purchase of bitcoin assets by Tesla, is there correlation between Bitcoin's valuation and volume and Elon Musk's Twitter activity. As shown below in the heatmap, there is still little to no correlation. Though the variance as evidence below is wider than the historical data from previous years.
-![2020_2021 Heatmap](Heatmap_2020_2021.png)
+![2020_2021 Heatmap](Findings_Images/Heatmap_2020_2021.png)
 
 
 ## Determine if the public follows Elon Musk for his tweets on cryptocurrency.
 Using the dataframe created by the browser based web scrapping tool, we gathered data to determine if Elon Musk has more twitter activity from his followers on his cryptocurrency related tweets vs his other tweets. As evidenced by the HvPlot of Elon's Musk Tweets, you can see that for Tweet Replies, Retweets, and Tweet Likes, we saw far more activity from his followers for his cryptocurrency tweets, green bars, than all other tweets as highlighted in the orange bars. In our discussion of those results we came to the conclusion that tweet replies were a more active user response than a tweet like or retweet.
 
-![Scatter Plot](Scatter_Plot_of_Elons_Tweet_Activity.png)
-![Elon Tweets](hvplot_bar_df.png)
+![Scatter Plot](Findings_Images/Scatter_Plot_of_Elons_Tweet_Activity.png)
+![Elon Tweets](Findings_Images/hvplot_bar_df.png)
 
 In the plot below you can see that Elon's tweet activity began to increase in 2018 and has been hot of late. The plot shows the huge spikes in in followers retweeting and liking his tweets, however, no significant change was found in the daily returns of Bitcoin.
 
-![Daily Returns](Daily_Returns_vs_Elons_Tweets.png)
+![Daily Returns](Findings_Images/Daily_Returns_vs_Elons_Tweets.png)
 
 # Next Steps
 ## Evolving the project
